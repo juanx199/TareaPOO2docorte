@@ -4,7 +4,7 @@
 
 - Juan Camilo Carvjal Camargo 20232020026
 
-- 1) Haz un juego en python con pygame se un  circulo que pueda mover con las flechas del teclado usando POO
+## 1) Haz un juego en python con pygame se un  circulo que pueda mover con las flechas del teclado usando POO
 - Claro, aquí tienes un ejemplo de cómo podrías crear un juego simple en Python utilizando Pygame y programación orientada a objetos. Este juego consistirá en controlar un círculo que se mueve en la pantalla con las flechas del teclado:
 
 import pygame
@@ -86,7 +86,7 @@ if __name__ == "__main__":
     main()
 
 
-- 2) también que si sale de pantalla por derecha aparezca por la izquierda y lo mismo por arriba y abajo  
+## 2) también que si sale de pantalla por derecha aparezca por la izquierda y lo mismo por arriba y abajo  
 
 - Para implementar el rebote del círculo cuando sale de la pantalla por la derecha o por abajo, y que aparezca por la izquierda o arriba respectivamente, puedes hacer algunos ajustes en la clase Player y en la función update() del juego. Aquí tienes la versión modificada del código:
 
@@ -179,7 +179,7 @@ if __name__ == "__main__":
     main()
 
 
-- 3) la imagen aparece como un cuadrado y no como circulo :c
+## 3) la imagen aparece como un cuadrado y no como circulo :(
 
 - Mis disculpas por el error. Parece que el círculo se está viendo como un cuadrado debido a que estamos utilizando un rectángulo para definir su área de colisión. Para corregir esto, podemos usar la función pygame.draw.circle() directamente para dibujar un círculo en lugar de dibujar sobre una superficie cuadrada. Aquí tienes la corrección:
 
